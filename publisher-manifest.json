@@ -1,0 +1,115 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "2da2f10e6697fc75a79397fc",
+  "owner": "kdnuyav",
+  "repo": "page-f848ab5d44a2369ee6a0f52b",
+  "title": "快柠檬",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "f848ab5d44a2369ee6a0f52b",
+      "a": "快柠檬",
+      "b": "",
+      "entity": "快柠檬",
+      "brand": "快柠檬",
+      "separator": "",
+      "path": "index.html",
+      "hash": "91a0fb6b04a33b1a653b39e3218f568989e80d73423726fe9393f3723245b9ea",
+      "content": {
+        "keyword1": "快柠檬",
+        "keyword2": "",
+        "primary_entity": "快柠檬",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "快柠檬提供稳定VPN加速服务，支持流媒体解锁和多设备在线，多种套餐选择",
+          "AI_DESCRIPTION": "快柠檬提供稳定VPN加速服务，支持流媒体解锁和多设备在线，多种套餐选择"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --bg: #f8f5f2;\n            --text: #333333;\n            --accent: #e06c5d;\n            --white: #ffffff;\n        }\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n        body {\n            font-family: 'Helvetica Neue', Arial, sans-serif;\n            background: var(--bg);\n            color: var(--text);\n            line-height: 1.6;\n            padding: 20px;\n        }\n        header {\n            background: var(--white);\n            box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n            position: sticky;\n            top: 0;\n            z-index: 10;\n        }\n        nav {\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 1rem;\n        }\n        .logo {\n            font-size: 1.8rem;\n            font-weight: bold;\n            color: var(--accent);\n        }\n        .nav-links {\n            display: flex;\n            gap: 2rem;\n        }\n        .nav-links a {\n            color: var(--text);\n            text-decoration: none;\n            font-weight: 500;\n        }\n        main {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 2rem 1rem;\n        }\n        h1 {\n            font-size: 2.5rem;\n            margin-bottom: 1rem;\n            color: var(--accent);\n        }\n        .hero {\n            background: linear-gradient(135deg, #f8f5f2, #fff);\n            padding: 4rem 2rem;\n            text-align: center;\n            margin-bottom: 3rem;\n            border-radius: 12px;\n        }\n        .section {\n            margin-bottom: 4rem;\n        }\n        h2 {\n            font-size: 1.8rem;\n            margin-bottom: 1.5rem;\n            color: var(--accent);\n        }\n        .intro {\n            display: grid;\n            grid-template-columns: 1fr 1fr;\n            gap: 3rem;\n            margin-bottom: 3rem;\n        }\n        @media (max-width: 768px) {\n            .intro {\n                grid-template-columns: 1fr;\n            }\n        }\n        .steps {\n            background: white;\n            padding: 2rem;\n            border-radius: 8px;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.05);\n        }\n        ol {\n            padding-left: 1.5rem;\n        }\n        li {\n            margin-bottom: 1rem;\n        }\n        .faq {\n            display: flex;\n            flex-direction: column;\n            gap: 1rem;\n        }\n        details {\n            background: white;\n            padding: 1.5rem;\n            border-radius: 8px;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n        }\n        summary {\n            font-weight: bold;\n            cursor: pointer;\n            color: var(--accent);\n        }\n        .plans {\n            display: flex;\n            flex-wrap: wrap;\n            gap: 2rem;\n            justify-content: center;\n        }\n        .plan-card {\n            background: white;\n            border-radius: 8px;\n            padding: 2rem;\n            width: 280px;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.05);\n            transition: transform 0.3s;\n        }\n        .plan-card.featured {\n            border: 3px solid var(--accent);\n            transform: scale(1.05);\n        }\n        footer {\n            text-align: center;\n            padding: 2rem;\n            color: #666;\n            font-size: 0.9rem;\n        }\n    </style>\n\n\n    <header>\n        <nav>\n            <div class=\"logo\">快柠檬</div>\n            <div class=\"nav-links\">\n                <a href=\"#intro\">关于我们</a>\n                <a href=\"#plans\">套餐</a>\n                <a href=\"#faq\">常见问题</a>\n                <a href=\"#clients\">合作伙伴</a>\n            </div>\n        </nav>\n    </header>\n    <main>\n        <section class=\"hero\">\n            <h1>快柠檬</h1>\n            <p>专业VPN加速器 • 机场订阅 • 极速网络</p>\n        </section>\n        <section id=\"intro\" class=\"section\">\n            <h2>品牌介绍</h2>\n            <p>快柠檬是一款专注于网络加速和VPN服务的平台，提供稳定可靠的线路节点，帮助用户轻松突破地域限制，享受高速上网体验。</p>\n        </section>\n        <section id=\"scenarios\" class=\"section\">\n            <h2>使用场景</h2>\n            <div class=\"intro\">\n                <div>\n                    <h3>家庭网络</h3>\n                    <p>支持多台设备同时在线，确保家庭网络高效稳定。</p>\n                </div>\n                <div>\n                    <h3>流媒体解锁</h3>\n                    <p>解锁基础流媒体平台内容。</p>\n                </div>\n                <div>\n                    <h3>游戏优化</h3>\n                    <p>IPLC专线提供游戏加速优化。</p>\n                </div>\n            </div>\n        </section>\n        <section id=\"steps\" class=\"section\">\n            <h2>快速上手</h2>\n            <div class=\"steps\">\n                <ol>\n                    <li>选择适合您的套餐</li>\n                    <li>订阅后获取客户端</li>\n                    <li>配置节点连接</li>\n                    <li>享受加速服务</li>\n                </ol>\n            </div>\n        </section>\n        <section id=\"faq\" class=\"section\">\n            <h2>常见问题</h2>\n            <div class=\"faq\">\n                <details>\n                    <summary>什么是快柠檬VPN？</summary>\n                    <p>快柠檬VPN是一款提供网络加速和VPN服务的平台，支持多种流量套餐和设备连接。</p>\n                </details>\n                <details>\n                    <summary>如何选择套餐？</summary>\n                    <p>根据您的流量需求和在线设备数量选择基础版、旗舰版或团队版。</p>\n                </details>\n                <details>\n                    <summary>支持哪些设备？</summary>\n                    <p>基础版支持3台，旗舰版支持5台，团队版支持20台设备同时在线。</p>\n                </details>\n                <details>\n                    <summary>如何解锁流媒体？</summary>\n                    <p>旗舰版及以上套餐提供全节点原生流媒体解锁。</p>\n                </details>\n                <details>\n                    <summary>节点池是什么？</summary>\n                    <p>提供普通线路节点池，基础版使用普通节点。</p>\n                </details>\n            </div>\n        </section>\n        <section id=\"plans\" class=\"section\">\n            <h2>套餐详情</h2>\n            {{PLANS_HTML}}\n        </section>\n        <section id=\"clients\" class=\"section\">\n            {{CLIENTS_HTML}}\n        </section>\n    </main>\n    <footer>\n        <p>© 快柠檬 2024</p>\n    </footer>\n\n",
+          "hash": "020fcb3fbc75eef6c78bf67a8decbfaeacc4b63b701e098b5502b1a8d53299d9",
+          "seo": {
+            "title": "快柠檬 VPN - 机场订阅 加速器 客户端下载",
+            "keywords": "快柠檬, VPN, 机场, 加速器, 客户端下载, 官网",
+            "description": "快柠檬提供稳定VPN加速服务，支持流媒体解锁和多设备在线，多种套餐选择"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "3u25vo.cn",
+    "host": "home.3u25vo.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "00ah6.cn",
+      "url": "https://00ah6.cn/",
+      "label": "SSHUB",
+      "apex": "00ah6.cn",
+      "kind": null,
+      "identity": "erjwrgjj/page-6141714b7a0f264666643c94"
+    },
+    {
+      "host": "01kmph.cn",
+      "url": "https://01kmph.cn/",
+      "label": "WeGo",
+      "apex": "01kmph.cn",
+      "kind": null,
+      "identity": "wbwftxwku/page-680ee6fa2562d6d22ba5a121"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "96e4fef9cbf75f25ed9dd78cb373f63bd4dedcc5034edd01cacd85c703a79b6f",
+    "sitemap.xml": "0b2e4c9ff7294b9ff9a400a1bf1d4efbd7b21f9ce567eb380162d3691b0eec82",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "28c8b83612c0ee78ae955611e25db57ce1b3e11733c610ed62516e9e2202cd28",
+    "robots.txt": "9d7af7ac649993ab6bad2207ed8ef19b536cd5792d5fac310f2bfcc7badc4e03",
+    "ba351201815d7e066d77b8077cfa3322.txt": "d4b372dd3237adfbf2aab40e3c1ab01fa5306e31c0385632bcc34fb791882a52"
+  },
+  "revision": "5cd13c7bfba8b7d235cf14ebd7e3418a4c98154dc03be3a21073f1ae31fc4cde"
+}
